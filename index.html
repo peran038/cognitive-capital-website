@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Capital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-color: #111827;
+            color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="font-sans">
+
+    <!-- Header -->
+    <header class="bg-gray-900/50 backdrop-blur-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-white">Cognitive Capital</a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="index.html" class="text-gray-300 hover:text-white">Home</a>
+                <a href="thesis.html" class="text-gray-300 hover:text-white">Thesis</a>
+                <a href="portfolio.html" class="text-gray-300 hover:text-white">Portfolio</a>
+                <a href="team.html" class="text-gray-300 hover:text-white">Team</a>
+                <a href="contact.html" class="text-gray-300 hover:text-white">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-white focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="index.html" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700">Home</a>
+            <a href="thesis.html" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700">Thesis</a>
+            <a href="portfolio.html" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700">Portfolio</a>
+            <a href="team.html" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700">Team</a>
+            <a href="contact.html" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="h-screen flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('https://placeholder.pics/svg/1920x1080/1a202c-1a202c/FFFFFF/%20');">
+            <div class="bg-black bg-opacity-50 p-10 rounded-lg">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-4">Funding the Architects of Tomorrow's Intelligence.</h1>
+            </div>
+        </section>
+
+        <!-- Investment Thesis Summary -->
+        <section class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-12">Investment Thesis Summary</h2>
+                <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8 text-left">
+                    <div class="bg-gray-800 p-8 rounded-lg">
+                        <p class="text-gray-400">The prevailing narrative in artificial intelligence often mistakes the map for the territory. While large, general-purpose models have demonstrated impressive capabilities, they are rapidly becoming a commoditized layer of the technology stack. Access to these models is table stakes, not a defensible long-term advantage. The fleeting moats of today are built on the ephemeral sands of borrowed architectures and publicly available data, susceptible to rapid replication and margin compression.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg">
+                        <p class="text-gray-400">At Cognitive Capital, we hold a conviction forged from first principles: enduring value in the AI era will not be captured by those who merely lease intelligence, but by those who build it. Our 'Foundational Intelligence' thesis posits that true, defensible moats are constructed upon three pillars: proprietary data sets that create compounding feedback loops, novel algorithms that unlock fundamentally new capabilities, and the vertical integration of these elements into full-stack solutions that redefine entire industries. We invest in companies that are not just using AI, but are architecting the very foundations of it.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg">
+                        <p class="text-gray-400">We seek out the category-defining companies that are patiently assembling these deep, structural advantages. These are the businesses that understand that data has gravity, that bespoke hardware can create insurmountable performance gaps, and that AI-native workflows are the future of every enterprise. By focusing on the core drivers of defensible value, we partner with founders who are not just building products, but are creating the foundational intelligence that will power the next generation of economic progress.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Portfolio -->
+        <section class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-12">Featured Portfolio Companies</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
+                    <div class="flex justify-center">
+                        <img src="assets/images/nvidia-logo.svg" alt="NVIDIA Logo" class="h-12">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="assets/images/cerebras-logo.svg" alt="Cerebras Systems Logo" class="h-12">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="assets/images/databricks-logo.svg" alt="Databricks Logo" class="h-12">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="assets/images/tempus-logo.svg" alt="Tempus Logo" class="h-12">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-20 bg-gray-800">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">Request Access to Full Portfolio</h2>
+                <a href="contact.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">Request Access</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#" class="hover:text-white"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" class="hover:text-white"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                <a href="#" class="hover:text-white"><i class="fab fa-github fa-lg"></i></a>
+            </div>
+            <p>&copy; 2024 Cognitive Capital. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
